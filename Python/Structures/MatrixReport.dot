@@ -1,0 +1,31 @@
+digraph SparseMatrix{
+	
+	"[ENC, ENC]"->"[asdf, ENC]"
+	"[ENC, ENC]"->"[ENC, adios]"
+	"[ENC, ENC]"[label="[ENC, ENC]" shape="square" ]
+	"[ENC, adios]"->"rt[Ricardo Toca, asdf, adios]"
+	"[ENC, adios]"->"[ENC, hola]"
+	"[ENC, adios]"[label="[ENC, adios]" shape="square" ]
+	"[ENC, hola]"->"rt[Ricardo Toca, asdf, hola]"
+	"[ENC, hola]"[label="[ENC, hola]" shape="square" ]
+	"[asdf, ENC]"->"[mundo, ENC]"
+	"[asdf, ENC]"->"rt[Ricardo Toca, asdf, adios]"
+	"[asdf, ENC]"[label="[asdf, ENC]" shape="square" ]
+	"rt[Ricardo Toca, asdf, adios]"->"rt[Ricardo Toca, mundo, adios]"
+	"rt[Ricardo Toca, asdf, adios]"->"rt[Ricardo Toca, asdf, hola]"
+	"rt[Ricardo Toca, asdf, adios]"[label="rt[Ricardo Toca, asdf, adios]" shape="square" ]
+	"rt[Ricardo Toca, asdf, hola]"->"rt[Ricardo Toca, mundo, hola]"
+	"rt[Ricardo Toca, asdf, hola]"[label="rt[Ricardo Toca, asdf, hola]" shape="square" ]
+	"[mundo, ENC]"->"[qwer, ENC]"
+	"[mundo, ENC]"->"rt[Ricardo Toca, mundo, adios]"
+	"[mundo, ENC]"[label="[mundo, ENC]" shape="square" ]
+	"rt[Ricardo Toca, mundo, adios]"->"rt[Ricardo Toca, qwer, adios]"
+	"rt[Ricardo Toca, mundo, adios]"->"rt[Ricardo Toca, mundo, hola]"
+	"rt[Ricardo Toca, mundo, adios]"[label="rt[Ricardo Toca, mundo, adios]" shape="square" ]
+	"rt[Ricardo Toca, mundo, hola]"->"rt[Ricardo Toca, qwer, hola]"
+	"rt[Ricardo Toca, mundo, hola]"[label="rt[Ricardo Toca, mundo, hola]" shape="square" ]
+	"[qwer, ENC]"->"rt[Ricardo Toca, qwer, adios]"
+	"[qwer, ENC]"[label="[qwer, ENC]" shape="square" ]
+	"rt[Ricardo Toca, qwer, adios]"->"rt[Ricardo Toca, qwer, hola]"
+	"rt[Ricardo Toca, qwer, adios]"[label="rt[Ricardo Toca, qwer, adios]" shape="square" ]
+	"rt[Ricardo Toca, qwer, hola]"[label="rt[Ricardo Toca, qwer, hola]" shape="square" ]}
